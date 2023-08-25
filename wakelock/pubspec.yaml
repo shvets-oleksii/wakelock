@@ -18,7 +18,11 @@ dependencies:
   wakelock_macos: ^0.4.0
   wakelock_platform_interface: ^0.3.0
   wakelock_web: ^0.4.0
-  wakelock_windows: ^0.2.0
+  wakelock_windows:
+    git:
+      url: https://github.com/shvets-oleksii/wakelock.git
+      ref: bump-version
+      path: wakelock_windows
 
 dev_dependencies:
   flutter_test:
